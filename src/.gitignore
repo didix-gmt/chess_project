@@ -1,0 +1,38 @@
+# === Build artifacts ===
+*.o
+*.out
+*.exe
+echecs
+
+# === Backup files ===
+*~
+*.swp
+*.bak
+*.tmp
+
+# === Doxygen-generated documentation ===
+/html/
+/docs/
+/latex/
+
+# === Log files ===
+*.log
+
+# === System-specific files ===
+.DS_Store
+Thumbs.db
+
+# === Archive files ===
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# === VSCode / Editor configs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === CMake or other build system folders (if any) ===
+build/
+cmake-build-*/
