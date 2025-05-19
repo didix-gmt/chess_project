@@ -1,0 +1,21 @@
+# Doxyfile for the Chess Project
+
+PROJECT_NAME           = "Chess Project"
+PROJECT_BRIEF          = "A simple chess game in C++"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = French
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+RECURSIVE              = YES
+INPUT                  = .
+FILE_PATTERNS          = *.cpp *.hpp
+GENERATE_LATEX         = NO
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
