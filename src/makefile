@@ -1,8 +1,7 @@
 EXEC = echecs
 
-SRC = main.cpp board.cpp game.cpp
-HDRS = board.hpp piece.hpp pawn.hpp knight.hpp bishop.hpp rook.hpp queen.hpp king.hpp utils.hpp game.hpp
-
+SRC = $(wildcard *.cpp)
+HEADERS = $(wildcard *.hpp)
 OBJ = $(SRC:.cpp=.o)
 
 # Options de compilation
